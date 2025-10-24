@@ -35,7 +35,7 @@
     }
 
     .form-contact{
-        padding: 0 2rem;
+        padding: 1rem 2rem;
     }
 
 }
@@ -67,7 +67,7 @@
     .contact{
         display: flex;
         flex-direction: column;
-        padding: 0 2rem;
+        padding: 0 1rem;
     }
 
     footer{
@@ -83,6 +83,10 @@
 
     .cards{
         justify-content: center;
+    }
+
+    .footer-logo{
+        width: 40%;
     }
 
 }

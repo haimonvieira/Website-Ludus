@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ludus</title>
+    <link rel="icon" sizes="32x32" type="image/x-icon" href="assets/image/logo/Controle_32_32.png">
+    <link rel="icon" sizes="16x16" type="image/x-icon" href="assets/image/logo/Controle_16_16.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style/style.css">
@@ -17,7 +19,7 @@
         <nav class="navbar bg-white navbar-expand-lg fixed-top shadow">
             <div class="container-fluid mx-4">
                 <a class="navbar-brand mx-auto" href="#">
-                    <img class="logo img-fluid" src="assets/image/Logo_fundo_preto_negativa.png" alt="Logo Ludus">
+                    <img class="logo img-fluid" src="assets/image/logo/Logo_fundo_branco.png" alt="Logo Ludus">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -28,7 +30,7 @@
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
                             <a class="navbar-brand mx-auto" href="#">
-                                <img class="logo img-fluid" src="assets/image/Logo_fundo_preto_negativa.png"
+                                <img class="logo img-fluid" src="assets/image/logo/Logo_fundo_branco.png"
                                     alt="Logo Ludus">
                             </a>
                         </h5>
@@ -74,7 +76,7 @@
                 <div class="presentation__info-text">
 
                     <div class="d-flex col-md-6 float-md-end mb-3 ms-md-3 justify-content-center">
-                        <img class="rounded-4 img-fluid" src="https://picsum.photos/seed/11/320/" alt="">
+                        <img class="rounded-4 img-fluid" src="assets/image/img-demo.png" alt="">
                     </div>
 
                     <div class="clearfix">
@@ -177,8 +179,7 @@
             <div class="cards mt-5 d-flex gap-4 flex-wrap align-items-center">
 
                 <div class="card bg-light" style="width: 18rem;">
-                    <img src="https://loremimage.com/image/1920x1080/Preview/824797/ffffff.png"
-                        class="card-img-top img-fluid rounded" alt="...">
+                    <img src="assets/image/logo/Logo_code_city.png" class="card-img-top img-fluid rounded" alt="...">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">CODE City</h5>
                         <h6 class="card-subtitle mb-2 text-body-secondary">Nosso primeiro jogo desenvolvido durante o
@@ -188,6 +189,8 @@
                         </h6>
                     </div>
                 </div>
+
+
 
             </div>
 
@@ -202,37 +205,39 @@
                 <div class="member p-3 rounded-3 bg-light">
 
                     <div class="member-info">
-                        <img class="rounded-circle img-fluid" src="https://picsum.photos/id/237/200/" alt="">
-                        <p class="text-purple fw-bold">Anny Vitória</p>
+                        <img class="member-photo rounded-circle img-fluid" src="assets/image/members/Anny.jpg" alt="">
+                        <p class="text-purple fw-bold">Anny Fidêncio</p>
                     </div>
 
                 </div>
 
                 <div class="member p-3 rounded-3 bg-light">
                     <div class="member-info">
-                        <img class="rounded-circle img-fluid" src="https://picsum.photos/200/" alt="">
-                        <p class="text-purple fw-bold">Caroline Beck</p>
+                        <img class="member-photo rounded-circle img-fluid" src="assets/image/members/Caroline.jpg"
+                            alt="">
+                        <p class="text-purple fw-bold">Caroline Camilo</p>
                     </div>
                 </div>
 
                 <div class="member p-3 rounded-3 bg-light">
                     <div class="member-info">
-                        <img class="rounded-circle img-fluid" src="https://picsum.photos/seed/1/200/" alt="">
-                        <p class="text-purple fw-bold">Elias</p>
+                        <img class="member-photo rounded-circle img-fluid" src="assets/image/members/Elias.jpg" alt="">
+                        <p class="text-purple fw-bold">Elias dos Santos</p>
                     </div>
                 </div>
 
                 <div class="member p-3 rounded-3 bg-light">
                     <div class="member-info">
-                        <img class="rounded-circle img-fluid" src="https://picsum.photos/seed/10/200/" alt="">
+                        <img class="member-photo rounded-circle img-fluid" src="assets/image/members/Haimon.jpg" alt="">
                         <p class="text-purple fw-bold">Haimon Vieira</p>
                     </div>
                 </div>
 
                 <div class="member p-3 rounded-3 bg-light">
                     <div class="member-info">
-                        <img class="rounded-circle img-fluid" src="https://picsum.photos/seed/100/200/" alt="">
-                        <p class="text-purple fw-bold">Natasha</p>
+                        <img class="member-photo rounded-circle img-fluid" src="assets/image/members/Natasha.jpg"
+                            alt="">
+                        <p class="text-purple fw-bold">Natasha da Silva</p>
                     </div>
                 </div>
 
@@ -244,7 +249,7 @@
 
             <h2 class="subtitle text-purple">Entre em contato</h2>
 
-            <form class="form-contact bg-light rounded-4 p-5">
+            <form class="form-contact bg-light rounded-4">
 
                 <div class="row">
                     <div class="col-md-6">
@@ -287,10 +292,10 @@
 
         <footer class="w-100">
 
-            <div class="footer">
+            <div class="footer mb-5">
 
-                <div class="footer-logo w-100">
-                    <img class="img-fluid" width="256px" src="assets/image/Logo_fundo_preto_negativa.png"
+                <div class="w-100">
+                    <img class="footer-logo img-fluid" width="256px" src="assets/image/logo/Logo_fundo_branco.png"
                         alt="Logo Ludus">
                 </div>
 
@@ -342,8 +347,6 @@
                 </div>
 
             </div>
-
-            <hr>
 
             <p class="text-center text-white">&copy; 2025 Ludus. Todos os direitos reservados.</p>
 

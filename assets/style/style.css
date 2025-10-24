@@ -41,7 +41,6 @@ body {
 }
 
 .subtitle {
-    position: relative;
     font-weight: var(--font-weight-title);
     font-size: var(--font-size-subtitle);
 }
