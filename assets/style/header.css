@@ -1,0 +1,11 @@
+
+.logo{
+    height: 32px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-weight: 600;
+}
+
+.navbar-toggler{
+    border: unset;
+}

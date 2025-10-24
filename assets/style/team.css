@@ -1,0 +1,14 @@
+.team {
+    width: 100%;
+    padding: 0 10rem;
+}
+
+.member {
+    box-shadow: 1px 1px 10px 1px rgba(30, 30, 30, .1) !important;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

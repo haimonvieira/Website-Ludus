@@ -1,0 +1,17 @@
+.banner {
+    padding: 1rem;
+    /* background-image: url('https://lipsum.app/1920/'); */
+    background-image: url('../image/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.info {
+    grid-column: 2/4;
+    align-self: flex-end;
+    margin-top: 22rem;
+}

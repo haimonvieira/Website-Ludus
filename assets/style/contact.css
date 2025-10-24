@@ -1,0 +1,17 @@
+.contact{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 10rem;
+}
+
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 5rem;
+}
+
+.form-contact textarea{
+    resize: none;
+}

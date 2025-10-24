@@ -1,0 +1,88 @@
+
+@media screen and (max-width: 768px){
+
+    .banner{
+        background-size: cover;
+        height: unset;
+        padding: 0;
+    }
+
+    .presentation{
+        padding: 0 5rem;
+    }
+
+    .portfolio{
+        padding: 0 5rem;
+    }
+
+    .team{
+        padding: 0 5rem;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 0 5rem;
+    }
+
+    .footer{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .footer-logo{
+        grid-column: span 2;
+    }
+
+    .form-contact{
+        padding: 0 2rem;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+
+    .banner{
+        background-size: cover;
+        height: 20vh;
+        width: 100vw;
+    }
+
+    .info{
+        display: none;
+    }
+
+    .presentation{
+        padding: 0 2rem;
+    }
+
+    .portfolio{
+        padding: 0 2rem;
+    }
+
+    .team{
+        padding: 0 2rem;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+
+    footer{
+        padding: 1rem 2rem;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .cards{
+        justify-content: center;
+    }
+
+}
